@@ -19,8 +19,8 @@ h2 {
   text-align: center;
 }
 img {
-  border-radius: 50%;
-  border: 5px solid black;
+  align-items: center !important;
+  
 }
 .center{
   display: block;
@@ -39,7 +39,7 @@ footer {
 .formbold-mb-5{
   margin-bottom: 20px;
 }
-.form{
+form{
     margin: 0 auto;
     max-width: 650px;
     width: 100%;

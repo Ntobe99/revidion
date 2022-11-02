@@ -10,6 +10,7 @@
       href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css"
       rel="stylesheet"
     />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
   </head>
   <body>
     <header>
@@ -31,44 +32,54 @@
       </p>
     </div>
     <img src="https://picsum.photos/seed/picsum/200/300" alt="random" class="center"/>
-    <div class="form">
-      <form
-  action="https://formspree.io/f/mrgdoyne"
-  method="POST"
->
-<div class="form-bold-mb-5">
-<label>
-    Name
-    <input type="text" name="name" id="name"
-    placeholder="Full Name"
-    class="formbold-form-input">
-  </label>
-</div>
-<div class="form-bold-mb-5">
-  <label>
-    Your Email
-    <input type="email" name="email" id="email"
-    placeholder="Enter your email"
-    class="formbold-form-input"
-    >
-  
-  </label>
-</div>
-<div class="form-bold-mb-5">
-  <label>
-    Your message
-    <textarea name="message"id="message"
-    placeholder="Type your message"
-    class="formbold-form-input"></textarea>
-  </label>
-</div>
-<div class="button-align">
-<div class="form-bold-mb-5">
-  <button type="submit" class="btn">Send</button>
+    <form action="https://formspree.io/f/mrgdoyne" method="POST">
+       <div class="form-bold-mb-5">
+        <label>
+        
+          <input class="form-control">First name</input>
+          <input type="text" aria-label="First name" class="form-control" placeholder="First name">
+        </label>
+          
+          <label>
+            Your email
+            <input type="email" aria-label="email" class="form-control" placeholder="your email" >
+          </label>
+          <label>
+            Your message
+            <textarea name="message" class="form-control" placeholder="your message"></textarea>
+          </label>
+          
+          <button type="submit"class="btn btn-primary">Send</button>
+        </form>
+        </div>
 </form>
+
 </div>
 </div>
+    
+    <div class="container text-center">
+      <div class="row">
+        <div class="col">
+          <h1>Main content 1</h1>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto praesentium sapiente placeat iure quas itaque ipsam minus nesciunt commodi laboriosam. Corrupti necessitatibus at, quam doloremque quasi quas illo enim blanditiis.</p>
+        </div>
+        <div class="col">
+          <h1>Main content 2</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae deleniti sed magnam eum nam atque totam voluptates consequuntur error, quia architecto delectus, quasi eius. Accusantium eos sunt possimus molestiae optio?</p>
+          </div>
+        
+      </div>
     </div>
+    <div class="text-center">
+    <div class="d-flex flex-row mb-3">
+      <div class="p-2"><img src="https://picsum.photos/id/1001/200/300"></div>
+      <div class="p-2"><img src="https://picsum.photos/id/1005/200/300"></div>
+    </div>
+  </div>
+
+
+
+
     <footer>
       <div class="container-footer">
         <div class="text-center center-block">
