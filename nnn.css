@@ -35,3 +35,48 @@ footer {
 .container-footer {
   align-items: center !important;
 }
+/*form*/
+.formbold-mb-5{
+  margin-bottom: 20px;
+}
+.form{
+    margin: 0 auto;
+    max-width: 650px;
+    width: 100%;
+    
+   
+}
+.formbold-form-input {
+  width: 100%;
+  padding: 12px 24px;
+  border-radius: 6px;
+  border: 1px solid rgb(28, 28, 73);
+  background: white;
+  font-weight: 500;
+  font-size: 16px;
+  color: #6b7280;
+  outline: none;
+  resize: none;
+}
+.formbold-form-input:focus {
+  border-color: #1b167b;
+  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.05);
+}
+.btn{
+  width:150px;
+  height: 40px;
+  border-radius: 10px;
+  background-color:navy;
+  text-align: center; 
+}
+.btn:hover{
+  color:aliceblue;
+  background-color: black;
+}
+.button-align{
+  align-items: center;
+}
+@media only screen and (max-width: 600px) {
+  .sm\:w-half {
+    width: 50%;
+  }
